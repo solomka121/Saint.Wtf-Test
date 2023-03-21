@@ -179,10 +179,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ea61e1e4050a2847a9f6ebea71d1e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 5
-  _rotationSpeed: 620
+  _speed: 240
+  _turnSmoothTime: 0.1
   _rigidbody: {fileID: 399716851}
   _joystick: {fileID: 371748065}
+  _camera: {fileID: 963194229}
 --- !u!54 &399716851
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -192,7 +193,7 @@ Rigidbody:
   m_GameObject: {fileID: 399716848}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 1
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 0
   m_IsKinematic: 0
@@ -842,6 +843,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -914,6 +916,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 50, y: 25, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5c60843fa42b3244b87355d1e5812f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _target: {fileID: 399716852}
+  _smoothSpeed: 0.06
+  _defineOffsetOnStart: 1
+  _offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &1116637455
 PrefabInstance:
   m_ObjectHideFlags: 0

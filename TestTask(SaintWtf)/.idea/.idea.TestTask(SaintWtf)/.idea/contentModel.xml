@@ -33,6 +33,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="CameraFollow.cs" t="Include" />
           <e p="Player.cs" t="Include" />
         </e>
       </e>
