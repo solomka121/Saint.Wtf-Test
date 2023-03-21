@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -33,5 +34,5 @@ public class Player : MonoBehaviour
         float lookAngle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref _turnSmoothVelocity , _turnSmoothTime);
         transform.rotation = Quaternion.Euler(transform.eulerAngles.x , lookAngle , transform.eulerAngles.z);
 
-    } 
+    }
 }
