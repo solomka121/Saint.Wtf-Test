@@ -25,6 +25,9 @@ public class Inventory : MonoBehaviour
 
     public void TakeResource(Resource resource)
     {
+        if(HasSpace() == false)
+            return;
+        
         StartCoroutine(TakingResource(resource, GetLocalPositionForLastResource()));
     }
 
@@ -48,6 +51,67 @@ public class Inventory : MonoBehaviour
         resource.transform.parent = _collectPoint;
         resource.transform.localPosition = targetLocalPosition;
         resource.transform.localRotation = Quaternion.identity;
+    }
+
+    public bool GetResource(ResourceType type , out Resource resource)
+    {
+        resource = null;
+
+        if (HasResource(type, out Resource resourceInBag , out int index))
+        {
+            resource = resourceInBag;
+            RemoveFromBag(index);
+        }
+
+        return false;
+    }
+
+    public bool HasResources()
+    {
+        return _resourcesInBag.Count > 0;
+    }
+    
+    public bool HasSpace()
+    {
+        return _resourcesInBag.Count < _maxCount;
+    }
+    
+    public bool HasResource(ResourceType type)
+    {
+        for (int i = _resourcesInBag.Count - 1; i >= 0; i--)
+        {
+            if (_resourcesInBag[i].type == type)
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private bool HasResource(ResourceType type , out Resource resource , out int resourceIndex)
+    {
+        resource = null;
+        resourceIndex = 0;
+        
+        for (int i = _resourcesInBag.Count - 1; i >= 0; i--)
+        {
+            if (_resourcesInBag[i].type == type)
+            {
+                resource = _resourcesInBag[i];
+                resourceIndex = i;
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public void RemoveFromBag(int index)
+    {
+        Resource resource = _resourcesInBag[index];
+        _resourcesInBag.RemoveAt(index);
+        //TODO events on resources give
     }
 
     private void OnTriggerEnter(Collider other)
