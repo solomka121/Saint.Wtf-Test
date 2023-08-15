@@ -3,20 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="45759292-f599-4dc4-8f92-aa679d772d1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTask(SaintWtf)/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTask(SaintWtf)/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTask(SaintWtf)/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTask(SaintWtf)/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTask(SaintWtf)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTask(SaintWtf)/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ICollectable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ICollectable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Resource.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Resource.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ResourceType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ResourceType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +22,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07C89F75-2069-4139-9913-32D3CF930D48/b7/362fda5f/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07C89F75-2069-4139-9913-32D3CF930D48/64/96d79fca/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Storage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/ColorBlock.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07C89F75-2069-4139-9913-32D3CF930D48/dc/eb74326a/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VolxelsDestruction/GizmoManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07C89F75-2069-4139-9913-32D3CF930D48/a0/7d8e28a2/Object.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -45,6 +39,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IStorage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Storage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VolxelsDestruction/ColorCube.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VolxelsDestruction/GizmoManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VolxelsDestruction/RaycastDetoucher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VolxelsDestruction/Entity.cs" />
       </list>
     </option>
   </component>
@@ -91,7 +89,8 @@
       <updated>1679386896784</updated>
       <workItem from="1679386910842" duration="9904000" />
       <workItem from="1679415843831" duration="260000" />
-      <workItem from="1679416155026" duration="9034000" />
+      <workItem from="1679416155026" duration="9814000" />
+      <workItem from="1680820453336" duration="6263000" />
     </task>
     <servers />
   </component>
